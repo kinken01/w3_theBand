@@ -1,0 +1,7 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "workbench.colorTheme": "Abyss",
+    "editor.fontFamily": "Consolas",
+    "editor.fontSize": 13,
+}
