@@ -3,6 +3,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: #fff;
+}
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 #main {
@@ -10,11 +15,46 @@
 }
 
 #header {
+    height: 46px;
+    background-color: #000000;
+}
+
+#nav {
 
 }
 
-#slider {
+#nav li {
+    display: inline-block;
+    position: relative;
+}
 
+#nav li a {
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav > li:hover > a,
+.subnav > li:hover > a {
+    text-decoration: none;             
+    color: #333;
+    background-color: #ccc;
+}
+
+#nav .subnav {
+    /* display: none; */
+    position: absolute;
+    background-color: #fff;
+}
+
+#nav .subnav a {
+    color: #000000;
+}
+
+#slider {
+    min-height: 500px;
+    background-color: #333;
 }
 
 #content {
