@@ -4,4 +4,17 @@
     "workbench.colorTheme": "Abyss",
     "editor.fontFamily": "Consolas",
     "editor.fontSize": 13,
+    "indentRainbow.includedLanguages": [],
+    "indentRainbow.updateDelay": 100,
+    "indentRainbow.colors": [
+        "rgba(177, 24, 35, 1)",// Red
+        "rgba(128, 0, 128, 1)",// Purple
+        "rgba(255, 165, 0, 1)",// Orange
+        "rgba(255, 255, 0, 1)",// Yellow
+        "rgba(0, 255, 0 ,1)",// Lime
+        "rgba(0, 100, 0, 1)",// Dark Green
+        "rgba(0, 0, 128, 1)",// Navy Blue
+        "rgba(63, 68, 68, 1)",// Dark Heather
+        "rgba(64, 197, 117, 1)"//
+        ]
 }
