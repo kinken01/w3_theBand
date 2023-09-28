@@ -3,7 +3,7 @@
     "files.autoSaveDelay": 1000,
     "workbench.colorTheme": "Abyss",
     "editor.fontFamily": "Consolas",
-    "editor.fontSize": 13,
+    "editor.fontSize": 16,
     "indentRainbow.includedLanguages": [],
     "indentRainbow.updateDelay": 100,
     "indentRainbow.colors": [
