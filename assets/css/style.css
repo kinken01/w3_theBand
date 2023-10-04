@@ -37,6 +37,8 @@ html {
     display: inline-block;
     margin-top: 15px;
     border: none;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -51,6 +53,10 @@ html {
 
 .mt-16 {
     margin-top: 16px !important;
+}
+
+.mt-32 {
+    margin-top: 32px !important;
 }
 
 .row {
@@ -95,7 +101,6 @@ html {
     height: 46px;
     background-color: #000;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav {
@@ -156,6 +161,13 @@ html {
     font-size: 14px;
 }
 
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
 #header .mobile-menu-btn,
 #header .search-btn {
     float: right;
@@ -205,6 +217,7 @@ html {
 #slider .text-desciption {
     font-size: 15px;
     margin-top: 15px;
+    text-shadow: 0 0 1px #000;
 }
 
 #content {
@@ -245,7 +258,7 @@ html {
 }
 
 #content .members-list {
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 #content .member-name {
@@ -297,7 +310,7 @@ html {
 
 /* Places */
 .places-list {
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .place-img {
@@ -345,9 +358,17 @@ html {
     display: inline-block;
 }
 
+.contact-info a {
+    color: #101aef;
+    opacity: 0.8;
+}
+
+.contact-info a:hover {
+    opacity: 1;
+}
+
 .contact-form {
     font-size: 15px;
-
 }
 
 .contact-form .form-control {
